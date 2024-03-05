@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.highlight {
+    color: #1e90ff;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3em;
+}
+
+body {
+    font-size: 16px;
+    margin: 0 auto;
+    min-width: 1000px;
+    font-weight: normal;
+    font-family: "Product-Sans", sans-serif;
+}
+
+
+/* header */
+
+header {
+    padding-top: 1.5em;
+    width: 90%;
+    /* height: 9vw; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+#menu ul {
+    padding: 1em;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+}
+
+#menu li {
+    margin-left: 1em;
+}
+
+#menu a {
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 25px;
+    padding: 0.6em;
+    color: black;
+}
+
+#menu a:hover,
+#menu .active {
+    color: white;
+    background-color: #094b65;
+}
+
+
+/* end header */
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 17em;
+    background-color: #333;
+    clear: both;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: darkgray;
+    padding-top: 2em;
+    padding-right: 2em;
+}
+
+.footer-container i {
+    margin-right: 10px;
+}
+
+.footer-container h3 {
+    color: white;
+}
+
+.footer-container .list-social {
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer-container ul {
+    padding-left: 0;
+}
+
+.footer-container li {
+    list-style: none;
+    padding-right: 2em;
+}
+
+.footer-container a {
+    color: darkgrey;
+}
+
+.email {
+    margin-top: 1em;
+}
+
+#email {
+    width: 20em;
+    border-radius: 10px;
+    height: 4em;
+    border: none;
+    padding-left: 1em;
+}
+
+#email::placeholder {
+    font-size: 1.3em;
+}
+
+#dang-ki {
+    width: 8em;
+    height: 4em;
+    border: none;
+    border-radius: 10px;
+    margin-left: 15px;
+    background-color: #1e90ff;
+}
+
+#text-dangki {
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+/* end footer */

@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	min-height:100vh;
+	background: rgb(245,245,245);
+}
+header{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	padding:30px 100px;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+header .topic{
+	color: rgb(37,135,234);
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+header a i{
+	text-decoration:none;
+	letter-spacing: 2px;
+	background: light gray;
+	border-radius: 20px;
+}
+.header{
+	display:inline-block;
+}
+.menu ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(30,144,255);
+}
+.menu ul li{
+	list-style: none;
+	margin-left: 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #fff;
+}
+.menu ul li a:hover{
+	background: rgb(0,54,108);
+	color: #fff;
+}
+.body1{
+	
+}
+.body2{
+	
+}
+.body3{
+	
+}
+.body4{
+	
+}
+.body5{
+	
+}
+.email{
+	
+}
+.footer{
+	
+}
